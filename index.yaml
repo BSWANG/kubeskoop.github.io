@@ -1,0 +1,64 @@
+apiVersion: v1
+entries:
+  kubeskoop:
+  - annotations:
+      category: Analytics
+      licenses: Apache-2.0
+    apiVersion: v1
+    appVersion: 1.0.0-rc.1
+    created: "2024-07-16T11:39:52.38641018Z"
+    description: Promtheus exporter and kernel tracing for OS metrics in kubernetes,
+      with pluggable metric collectors and kernel eBPF tracers.
+    digest: 422ee2f86ff348e6e7fec6bc4964040dd4f4959df89c8aa147cb4f4fe68bf371
+    home: https://github.com/alibaba/kubeskoop
+    icon: https://img.shields.io/github/v/tag/alibaba/kubeskoop
+    keywords:
+    - kubeskoop
+    - kubernetes
+    - prometheus
+    - eBPF
+    - ebpf
+    - monitoring
+    maintainers:
+    - name: KubeSkoop
+      url: https://kubeskoop.io/
+    name: kubeskoop
+    sources:
+    - https://github.com/alibaba/kubeskoop
+    - https://kubeskoop.io/
+    type: application
+    urls:
+    - https://github.com/BSWANG/kubeskoop.github.io/releases/download/kubeskoop-1.0.2/kubeskoop-1.0.2.tgz
+    version: 1.0.2
+  kubeskoop-exporter:
+  - annotations:
+      category: Analytics
+      licenses: Apache-2.0
+    apiVersion: v1
+    appVersion: 0.1.0
+    created: "2024-07-16T11:39:52.499945469Z"
+    description: Promtheus exporter and kernel tracing for OS metrics in kubernetes,
+      with pluggable metric collectors and kernel eBPF tracers.
+    digest: 3481c0e9ebe19e416735e0f6f24d7453de8bb8a32e03d3c12d66c35a1dc6de35
+    home: https://github.com/alibaba/kubeskoop
+    icon: https://img.shields.io/github/v/tag/alibaba/kubeskoop
+    keywords:
+    - kubeskoop
+    - kubeskoop-exporter
+    - kubernetes
+    - prometheus
+    - eBPF
+    - ebpf
+    - monitoring
+    maintainers:
+    - name: KubeSkoop
+      url: https://kubeskoop.io/
+    name: kubeskoop-exporter
+    sources:
+    - https://github.com/alibaba/kubeskoop
+    - https://kubeskoop.io/
+    type: application
+    urls:
+    - https://github.com/BSWANG/kubeskoop.github.io/releases/download/kubeskoop-exporter-0.2.0/kubeskoop-exporter-0.2.0.tgz
+    version: 0.2.0
+generated: "2024-07-16T11:39:52.499956931Z"
